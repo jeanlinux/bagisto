@@ -282,6 +282,10 @@ return [
         Webkul\Velocity\Providers\VelocityServiceProvider::class,
         Webkul\BookingProduct\Providers\BookingProductServiceProvider::class,
         Webkul\SocialLogin\Providers\SocialLoginServiceProvider::class,
+        //Dropshipping package
+        Webkul\Dropship\Providers\DropshipServiceProvider::class,
+        // Rave Package
+        Jeanlinux\Rave\Providers\RaveServiceProvider::class,
     ],
 
     /*

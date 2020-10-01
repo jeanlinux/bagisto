@@ -1,0 +1,25 @@
+{
+    "name": "jeanlinux/rave",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jean Linux",
+            "email": "jeanlinux5@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jeanlinux\\Rave\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jeanlinux\\Rave\\Providers\\RaveServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
